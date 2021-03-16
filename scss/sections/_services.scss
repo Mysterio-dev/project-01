@@ -1,0 +1,38 @@
+.services {
+
+    &__card {
+        background: #F3F4F6;
+    }
+
+    &__img {
+        max-height: 240px;
+        width: 100%;
+        max-width: 210px;
+    }
+
+    &__card {
+        display: flex;
+        align-items: center;
+        padding: 80px 50px 50px;
+        
+    }
+
+    .services--one {
+        border-radius: 60px 0px 0px 0px;
+    }
+
+    .services--two {
+        border-radius: 0px 0px 0px 60px;
+    }
+
+    .services--three {
+        border-radius: 0px 70px;
+    }
+
+    .services--four {
+        border-radius: 0px 0px 70px 0px;
+    }
+
+    
+
+}
